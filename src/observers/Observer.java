@@ -1,5 +1,5 @@
-package observer;
-import subjects.Subject;
+package observers;
+import subject.Subject;
 
 public interface Observer {
 

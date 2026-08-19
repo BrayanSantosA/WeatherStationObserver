@@ -1,4 +1,4 @@
-package display;
+package observers;
 
 public class ThirdPartDisplay implements DisplayElement {
 

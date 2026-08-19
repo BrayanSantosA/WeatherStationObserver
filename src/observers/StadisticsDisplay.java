@@ -1,4 +1,4 @@
-package observer;
+package observers;
 
 public class StadisticsDisplay implements Observer{
 

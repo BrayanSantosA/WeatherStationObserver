@@ -1,4 +1,5 @@
-package subjects;
+package data;
+import subject.Subject;
 
 public class WeatherData implements Subject{
 	

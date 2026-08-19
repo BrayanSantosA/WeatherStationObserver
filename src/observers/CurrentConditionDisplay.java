@@ -1,5 +1,5 @@
-package observer;
-import subjects.WeatherData;
+package observers;
+import data.WeatherData;
 public class CurrentConditionDisplay implements Observer {
 
 	public void update() {

@@ -1,4 +1,4 @@
-package display;
+package observers;
 
 public interface DisplayElement {
 

@@ -22,7 +22,7 @@ public class WeatherData implements Subject{
 	}
 
 	public void notifyObservers() {
-		System.out.println("\n----- Hay una nueva notificación del clima -----");
+		System.out.println("\n   Hay una nueva notificación del clima  ");
 		for (Observer observer : observers) {
 			System.out.print("  ");
 			observer.update(temperature, humidity, pressure);

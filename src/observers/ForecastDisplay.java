@@ -19,7 +19,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
 	}
 	
 	public void Display() {
-		//Forecast Display
+
 		System.out.print("Pronostico: ");
 		if (currentPressure > lastPressure) {
 			System.out.println("Mejora el clima");

@@ -3,6 +3,7 @@ package app;
 import data.WeatherData;
 import observers.CurrentConditionDisplay;
 import observers.ForecastDisplay;
+import observers.HeatIndexDisplay;
 import observers.PressureDisplay;
 import observers.StadisticsDisplay;
 import observers.ThirdPartDisplay;
@@ -17,9 +18,11 @@ public class Main {
 		ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 		ThirdPartDisplay thirdPartDisplay = new ThirdPartDisplay(weatherData);
 		PressureDisplay pressureDisplay = new PressureDisplay(weatherData);
+		HeatIndexDisplay heatIndexDisplay = new HeatIndexDisplay(weatherData);
 
 		weatherData.setMeasurements(27, 65, 30.4f);
 		weatherData.setMeasurements(28, 70, 29.2f);
 		weatherData.setMeasurements(26, 90, 29.2f);
+		
 	}
 }
